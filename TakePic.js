@@ -18,7 +18,6 @@
         this.canvas = document.querySelector('canvas');
         this.context = canvas.getContext('2d');
         this.captureBtn = document.querySelector('button');
-        this.imageToAdd = document.querySelector('img');
 
         nextTick(function() {
             this.init();
